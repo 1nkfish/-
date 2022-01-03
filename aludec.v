@@ -53,7 +53,7 @@ module aludec(
                 `EXE_MULT:alucontrol <= `EXE_MULT_OP; //mult
                 `EXE_MULTU:alucontrol <= `EXE_MULTU_OP; //multu
                 `EXE_DIV:alucontrol <= `EXE_DIV_OP; //div
-                `EXE_DIVU:alucontrol <= `EXE_DIVU_OP; //divu
+                //`EXE_DIVU:alucontrol <= `EXE_DIVU_OP; //divu
                 
                 default:  alucontrol <= 8'b00000000;
             endcase
